@@ -1,0 +1,37 @@
+{
+  "name": "backend-dating-app",
+  "version": "1.0.0",
+  "description": "First assignment be course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "serve": "",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewarian/be-1.git"
+  },
+  "keywords": [
+    "school",
+    "assignment",
+    "backend",
+    "npm",
+    "hva",
+    "cmd"
+  ],
+  "author": "Nathan Bommezijn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dewarian/be-1/issues"
+  },
+  "homepage": "https://github.com/dewarian/be-1#readme",
+  "devDependencies": {
+    "google-auth-library": "^6.0.0",
+    "lodash": "^4.17.15"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
