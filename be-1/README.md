@@ -18,7 +18,7 @@ be-1
 *`npm run scripts` runs the scripts object from `package.json`.*
 
 # Serve
-- [ ] 1. Create a server (with express) (`npx express-generator`)
+- [x] 1. Create a server (with express) (`npx express-generator`)
 - [ ] 2. Create multiple routes
 - [ ] 3. If route does not exist respond with 404
 - [ ] 4. Serve  static files. (JS, CSS, IMG)
@@ -32,3 +32,7 @@ be-1
 *xx*
 * **The confusing part is that your laptop is both the client and the server. It's a `local development` environment.**
 *xx*
+
+----
+
+(Installed express with nodemon so I don't have to restart the damn server)[https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website]
