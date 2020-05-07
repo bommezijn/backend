@@ -17,3 +17,6 @@ be-1
 *Global dependencies will be installed on the machine while local is just for that project it is installed in.*
 * What tasks can you run with npm run scripts?
 *`npm run scripts` runs the scripts object from `package.json`.*
+
+# Serve
+
