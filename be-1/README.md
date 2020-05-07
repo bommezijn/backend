@@ -1,16 +1,16 @@
 be-1
 
-# Assignment Package
+# Package
+## Assignment Package
 - [x] 1. Create boilerplate
-- [x] 2. Install a package (google-auth-library)
+- [x] 2. Install a package (google-auth-library) (don't forget to download the Service Account Credentials JSON)[https://github.com/googleapis/google-auth-library-nodejs#download-your-service-account-credentials-json-file]
 - [x] 3. improve *dev experience* (install nodemon)
 - [ ] 4. Create runscripts (run, serve, build)
 
 
-# Q/A Ask yourself upon completion:
-
+## Q/A Ask yourself upon completion:
 * How does require work under the hood?
-
+*Node runs a single-threaded JS engine (specifically google V8 engine) outside a browser. It does this in an async way, which means it continues it jobs and will reply back when it receives an answer.*
 * What's the difference between dependencies and devDependencies?
 *One is for running the program while the other is for developing the program but is not needed in prod.*
 * What are the differences between global and local dependencies?
